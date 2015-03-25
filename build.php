@@ -3,8 +3,7 @@ require_once 'vendor/autoload.php';
 
 use PHPoole\PHPoole;
 
-$phpoole = new PHPoole();
-$phpoole->setOptions([
+$phpoole = new PHPoole('./', null, [
     'site' => [
         'title'       => "Demo blog",
         'baseline'    => 'This is a demo blog',
@@ -14,3 +13,7 @@ $phpoole->setOptions([
     'theme' => 'hyde'
 ]);
 $phpoole->build();
+
+echo "Start server http://localhost:8000\n";
+echo "Ctrl-C to stop it\n";
+exec('php -S localhost:8000 -t _site/ >/dev/null');
