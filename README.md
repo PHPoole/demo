@@ -1,4 +1,6 @@
-# PHPoole-demo
+# PHPoole-library demo
+
+This demo is a simple blog, based on the [Hyde](https://github.com/Narno/PHPoole-theme-hyde) theme.
 
 ```
 $ git clone https://github.com/Narno/PHPoole-demo.git demo
