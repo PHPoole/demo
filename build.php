@@ -18,4 +18,5 @@ PHPoole::create('./', null, $options)
 
 echo "Start server http://localhost:8000\n";
 echo "Ctrl-C to stop it\n";
-exec('php -S localhost:8000 -t _site/ >/dev/null');
+//exec('php -S localhost:8000 -t _site/ >/dev/null');
+exec('php -S localhost:8000 -t _site');
