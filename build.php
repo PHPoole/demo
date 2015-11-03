@@ -1,5 +1,6 @@
 #!/usr/local/bin/php
 <?php
+date_default_timezone_set('Europe/Paris');
 require_once 'vendor/autoload.php';
 use PHPoole\PHPoole;
 
