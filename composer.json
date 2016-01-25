@@ -1,6 +1,6 @@
 {
-  "name": "phpoole/phpoole-demo",
-  "description": "PHPoole-library demo",
+  "name": "narno/phpoole-demo",
+  "description": "A simple PHPoole-library demo",
   "license": "MIT",
   "type": "project",
   "require": {
