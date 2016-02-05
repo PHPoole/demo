@@ -5,8 +5,8 @@
   "type": "project",
   "require": {
     "narno/phpoole-library": "dev-develop as 1.1.x-dev",
-    "narno/phpoole-installer": "1.0.X-dev",
-    "narno/phpoole-theme-hyde": "1.0.X-dev"
+    "narno/phpoole-installer": "dev-develop as 1.1.x-dev",
+    "narno/phpoole-theme-hyde": "dev-develop as 1.1.x-dev"
   },
   "extra": {
     "branch-alias": {
