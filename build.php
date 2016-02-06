@@ -6,12 +6,33 @@ use PHPoole\PHPoole;
 
 $options = [
     'site' => [
-        'title'       => "Demo blog",
+        'title'       => "PHPoole demo blog",
         'baseline'    => 'This is a demo blog',
         'baseurl'     => 'http://localhost:8000/',
-        'description' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        'description' => 'A demo blog based on Hyde, built with PHPoole-library.',
+        'menu' => [
+            'main' => [
+                'download' => [
+                    'id'     => 'download',
+                    'name'   => 'Download',
+                    'url'    => 'https://github.com/PHPoole/PHPoole-theme-hyde',
+                    'weight' => 8,
+                ],
+                'github' => [
+                    'id'     => 'github',
+                    'name'   => 'GitHub project',
+                    'url'    => 'https://github.com/PHPoole/PHPoole-theme-hyde',
+                    'weight' => 10,
+                ],
+            ],
+        ],
     ],
-    'theme' => 'hyde'
+    'theme' => 'hyde',
+    'paginate' => [
+        'homepage' => [
+            'section' => 'blog',
+        ],
+    ],
 ];
 
 PHPoole::create('./', null, $options)
