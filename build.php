@@ -29,6 +29,7 @@ $options = [
     ],
     'theme' => 'hyde',
     'paginate' => [
+        'disabled' => true,
         'homepage' => [
             'section' => 'blog',
         ],
