@@ -7,7 +7,7 @@ use PHPoole\PHPoole;
 $options = [
     'site' => [
         'title'       => "PHPoole demo blog",
-        'baseline'    => 'This is a demo blog',
+        'baseline'    => 'This is a PHPoole demo blog',
         'baseurl'     => 'http://localhost:8000/',
         'description' => 'A demo blog based on Hyde, built with PHPoole-library.',
         'menu' => [
@@ -15,14 +15,14 @@ $options = [
                 'download' => [
                     'id'     => 'download',
                     'name'   => 'Download',
-                    'url'    => 'https://github.com/PHPoole/PHPoole-theme-hyde',
-                    'weight' => 8,
+                    'url'    => 'http://github.com/PHPoole/PHPoole-theme-hyde',
+                    'weight' => 50,
                 ],
                 'github' => [
                     'id'     => 'github',
                     'name'   => 'GitHub project',
-                    'url'    => 'https://github.com/PHPoole/PHPoole-theme-hyde',
-                    'weight' => 10,
+                    'url'    => 'http://github.com/PHPoole/PHPoole-theme-hyde',
+                    'weight' => 60,
                 ],
             ],
         ],
