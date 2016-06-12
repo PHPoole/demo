@@ -4,13 +4,13 @@
   "license": "MIT",
   "type": "project",
   "require": {
-    "narno/phpoole-library": "dev-develop as 1.1.x-dev",
-    "narno/phpoole-installer": "dev-develop as 1.1.x-dev",
-    "narno/phpoole-theme-hyde": "dev-develop as 1.1.x-dev"
+    "narno/phpoole-library": "^1.1",
+    "narno/phpoole-installer": "^1.1",
+    "narno/phpoole-theme-hyde": "^1.1"
   },
   "extra": {
     "branch-alias": {
-      "dev-develop": "1.1.x-dev"
+      "dev-master": "1.1.x-dev"
     }
   },
   "minimum-stability": "dev",
