@@ -1,17 +1,18 @@
 {
   "name": "narno/phpoole-demo",
-  "description": "A simple PHPoole-library demo",
+  "description": "A PHPoole demo",
   "license": "MIT",
   "type": "project",
   "require": {
-    "narno/phpoole-library": "^1.1",
-    "narno/phpoole-installer": "^1.1",
     "narno/phpoole-theme-hyde": "^1.1"
   },
   "extra": {
     "branch-alias": {
       "dev-master": "1.1.x-dev"
     }
+  },
+  "suggest": {
+    "narno/phpoole-library": "^1.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
