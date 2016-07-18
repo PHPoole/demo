@@ -1,0 +1,108 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "07e23afa27e8d3d60b8fe23688c2d25e",
+    "content-hash": "53400ac5be563b66522444253bbdc740",
+    "packages": [
+        {
+            "name": "narno/phpoole-installer",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPoole/PHPoole-installer.git",
+                "reference": "98e5a49d790b62398bc8dfc01eacaf34047a5516"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-installer/zipball/98e5a49d790b62398bc8dfc01eacaf34047a5516",
+                "reference": "98e5a49d790b62398bc8dfc01eacaf34047a5516",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Narno\\PHPoole\\Composer\\PHPoolePlugin",
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Narno\\PHPoole\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Ligny",
+                    "email": "arnaud@ligny.org",
+                    "homepage": "http://narno.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Installer for PHPoole themes and plugins",
+            "keywords": [
+                "installer",
+                "phpoole",
+                "plugins",
+                "themes"
+            ],
+            "time": "2016-06-12 20:01:02"
+        },
+        {
+            "name": "narno/phpoole-theme-hyde",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPoole/PHPoole-theme-hyde.git",
+                "reference": "704c287af7796e2abcc3c6e806f190248031d291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/704c287af7796e2abcc3c6e806f190248031d291",
+                "reference": "704c287af7796e2abcc3c6e806f190248031d291",
+                "shasum": ""
+            },
+            "require": {
+                "narno/phpoole-installer": "^1.1"
+            },
+            "suggest": {
+                "narno/phpoole-library": "^1.1"
+            },
+            "type": "phpoole-theme",
+            "extra": {
+                "name": "hyde",
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPoole Hyde theme",
+            "keywords": [
+                "Hyde",
+                "phpoole",
+                "theme"
+            ],
+            "time": "2016-07-02 00:36:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
