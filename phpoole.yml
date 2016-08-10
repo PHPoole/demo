@@ -15,8 +15,8 @@ site:
         name: GitHub project
         url: http://github.com/PHPoole/PHPoole-theme-hyde
         weight: 60
+  paginate:
+    disabled: true
+    homepage:
+      section: blog
 theme: hyde
-paginate:
-  disabled: true
-  homepage:
-    section: blog
