@@ -2,7 +2,7 @@ site:
   title: PHPoole demo
   baseline: This is a PHPoole demo
   baseurl: http://localhost:8000/
-  description: A demo for PHPoole.
+  description: A demo of PHPoole.
   menu:
     main:
       download:
