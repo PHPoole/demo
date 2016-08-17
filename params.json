@@ -1,6 +1,0 @@
-{
-  "name": "Phpoole-demo",
-  "tagline": "PHPoole demo",
-  "body": "# PHPoole demo\r\n\r\nThis [PHPoole](https://github.com/Narno/PHPoole) demo is a simple blog, based on the [Hyde](https://github.com/PHPoole/PHPoole-theme-hyde) theme.\r\n\r\n## Installation\r\n\r\n```\r\n$ composer create-project narno/phpoole-demo\r\n```\r\n\r\n## Usage\r\n\r\nWith [PHPoole CLI](https://github.com/Narno/PHPoole):\r\n```\r\n$ cd phpoole-demo\r\n$ phpoole build -s\r\n```\r\n\r\n**Or** with the included PHP script:\r\n```\r\n$ cd phpoole-demo\r\n$ php build.php\r\n```\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
