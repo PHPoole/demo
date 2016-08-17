@@ -7,6 +7,9 @@
     "narno/phpoole-theme-hyde": "^1.3",
     "symfony/yaml": "^2.8"
   },
+  "require-dev": {
+    "narno/phpoole-library": "^1.1"
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "1.1.x-dev"
