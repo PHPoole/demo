@@ -15,9 +15,6 @@
       "dev-master": "1.1.x-dev"
     }
   },
-  "suggest": {
-    "narno/phpoole-library": "^1.1"
-  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
