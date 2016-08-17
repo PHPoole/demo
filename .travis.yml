@@ -19,7 +19,7 @@ before_script:
   - composer install --no-interaction
 
 script:
-  - php build.php
+  - php build.php -e=prod
 
 after_success:
   - bash deploy.sh
