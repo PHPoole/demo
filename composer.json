@@ -8,7 +8,7 @@
     "symfony/yaml": "^2.8"
   },
   "require-dev": {
-    "narno/phpoole-library": "^1.1"
+    "narno/phpoole-library": "^1.3"
   },
   "extra": {
     "branch-alias": {
