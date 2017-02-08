@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "24c2dfab2f9dbcdd59d5114c1dccd188",
+    "content-hash": "56526c6023978414f2e5c56c8a69ef4e",
     "packages": [
         {
             "name": "narno/phpoole-installer",
@@ -58,16 +58,16 @@
         },
         {
             "name": "narno/phpoole-theme-hyde",
-            "version": "1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-theme-hyde.git",
-                "reference": "b7925530b0e8d6c98205cd003548c9b0655c3172"
+                "reference": "e34dc242146e3e15221fcafd426e0cdf0d0e358a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/b7925530b0e8d6c98205cd003548c9b0655c3172",
-                "reference": "b7925530b0e8d6c98205cd003548c9b0655c3172",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/e34dc242146e3e15221fcafd426e0cdf0d0e358a",
+                "reference": "e34dc242146e3e15221fcafd426e0cdf0d0e358a",
                 "shasum": ""
             },
             "require": {
@@ -90,29 +90,35 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2016-08-11T10:00:48+00:00"
+            "time": "2017-02-08 15:46:21"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.16",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2"
+                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e1718c6bf57e1efbb8793ada951584b2ab27775b",
+                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -139,7 +145,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-03T13:49:52+00:00"
+            "time": "2017-01-21T17:06:35+00:00"
         }
     ],
     "packages-dev": [
@@ -209,16 +215,16 @@
         },
         {
             "name": "dflydev/dot-access-data",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "7a0960d088119818ce7687d200c363b01d183cbe"
+                "reference": "3fbd874921ab2c041e899d044585a2ab9795df8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/7a0960d088119818ce7687d200c363b01d183cbe",
-                "reference": "7a0960d088119818ce7687d200c363b01d183cbe",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/3fbd874921ab2c041e899d044585a2ab9795df8a",
+                "reference": "3fbd874921ab2c041e899d044585a2ab9795df8a",
                 "shasum": ""
             },
             "require": {
@@ -249,6 +255,11 @@
                     "name": "Beau Simensen",
                     "email": "beau@dflydev.com",
                     "homepage": "http://beausimensen.com"
+                },
+                {
+                    "name": "Carlos Frutos",
+                    "email": "carlos@kiwing.it",
+                    "homepage": "https://github.com/cfrutos"
                 }
             ],
             "description": "Given a deep data structure, access data by dot notation.",
@@ -259,7 +270,7 @@
                 "dot",
                 "notation"
             ],
-            "time": "2015-08-13T03:51:18+00:00"
+            "time": "2017-01-20T21:14:22+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -349,21 +360,21 @@
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.42",
+            "version": "1.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "b473affbb76ae6ec4e46d368b5081b5bfcdd3ed2"
+                "reference": "aa50b2dab6fa7bfd402d334fe51005d6f2526ad7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/b473affbb76ae6ec4e46d368b5081b5bfcdd3ed2",
-                "reference": "b473affbb76ae6ec4e46d368b5081b5bfcdd3ed2",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/aa50b2dab6fa7bfd402d334fe51005d6f2526ad7",
+                "reference": "aa50b2dab6fa7bfd402d334fe51005d6f2526ad7",
                 "shasum": ""
             },
             "require": {
                 "ext-pcre": "*",
-                "matthiasmullie/path-converter": "~1.0",
+                "matthiasmullie/path-converter": "~1.1",
                 "php": ">=5.3.0"
             },
             "require-dev": {
@@ -402,20 +413,20 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2016-11-23T10:16:14+00:00"
+            "time": "2017-01-26T15:48:07+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
-            "version": "1.0.8",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/path-converter.git",
-                "reference": "7c36e5cafa95dd20008d19b153b506cffa8c2848"
+                "reference": "08551ec1b156e923c242a10ab484bd4d6ead6631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/7c36e5cafa95dd20008d19b153b506cffa8c2848",
-                "reference": "7c36e5cafa95dd20008d19b153b506cffa8c2848",
+                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/08551ec1b156e923c242a10ab484bd4d6ead6631",
+                "reference": "08551ec1b156e923c242a10ab484bd4d6ead6631",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +462,7 @@
                 "paths",
                 "relative"
             ],
-            "time": "2016-04-27T10:38:05+00:00"
+            "time": "2017-01-26T08:54:49+00:00"
         },
         {
             "name": "myclabs/php-enum",
@@ -499,16 +510,16 @@
         },
         {
             "name": "narno/phpoole-library",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-library.git",
-                "reference": "ef2217bac175fa2ad8d500df48b5c9fb83021b34"
+                "reference": "e8cecae162d9d145256c8173080e905a22e01146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/ef2217bac175fa2ad8d500df48b5c9fb83021b34",
-                "reference": "ef2217bac175fa2ad8d500df48b5c9fb83021b34",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/e8cecae162d9d145256c8173080e905a22e01146",
+                "reference": "e8cecae162d9d145256c8173080e905a22e01146",
                 "shasum": ""
             },
             "require": {
@@ -521,7 +532,7 @@
                 "symfony/filesystem": "^2.8",
                 "symfony/finder": "^2.7|^2.8",
                 "symfony/process": "^2.8",
-                "symfony/yaml": "^2.8",
+                "symfony/yaml": "^3.2",
                 "twig/twig": "^1.24"
             },
             "require-dev": {
@@ -561,11 +572,11 @@
                 "twig",
                 "website"
             ],
-            "time": "2016-09-04T00:37:10+00:00"
+            "time": "2017-01-26T00:47:07+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -614,7 +625,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -663,16 +674,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ebb3c2abe0940a703f08e0cbe373f62d97d40231"
+                "reference": "0110ac49348d14eced7d3278ea7485f22196932e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ebb3c2abe0940a703f08e0cbe373f62d97d40231",
-                "reference": "ebb3c2abe0940a703f08e0cbe373f62d97d40231",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0110ac49348d14eced7d3278ea7485f22196932e",
+                "reference": "0110ac49348d14eced7d3278ea7485f22196932e",
                 "shasum": ""
             },
             "require": {
@@ -708,7 +719,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02T20:30:24+00:00"
+            "time": "2017-02-03T12:08:06+00:00"
         },
         {
             "name": "twig/twig",
@@ -774,7 +785,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "narno/phpoole-theme-hyde": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
