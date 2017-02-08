@@ -62,12 +62,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-theme-hyde.git",
-                "reference": "e34dc242146e3e15221fcafd426e0cdf0d0e358a"
+                "reference": "87557ebf06dc97fcc20c53927c6193f708054db1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/e34dc242146e3e15221fcafd426e0cdf0d0e358a",
-                "reference": "e34dc242146e3e15221fcafd426e0cdf0d0e358a",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/87557ebf06dc97fcc20c53927c6193f708054db1",
+                "reference": "87557ebf06dc97fcc20c53927c6193f708054db1",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2017-02-08 15:46:21"
+            "time": "2017-02-08 16:36:42"
         },
         {
             "name": "symfony/yaml",
