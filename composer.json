@@ -5,10 +5,10 @@
   "type": "project",
   "require": {
     "narno/phpoole-theme-hyde": "dev-master",
-    "symfony/yaml": "^3.2"
+    "symfony/yaml": "^2.8"
   },
   "require-dev": {
-    "narno/phpoole-library": "^1.4"
+    "narno/phpoole-library": "^1.5"
   },
   "extra": {
     "branch-alias": {
