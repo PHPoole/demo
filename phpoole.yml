@@ -1,7 +1,7 @@
 site:
-  title: PHPoole demo
-  baseline: This is a PHPoole demo
-  baseurl: http://phpoole.org/PHPoole-demo/
+  title: PHPoole
+  baseline: This is a demo!
+  baseurl: https://phpoole.org/PHPoole-demo/
   description: A demo of PHPoole.
   menu:
     main:
