@@ -4,17 +4,10 @@
   "license": "MIT",
   "type": "project",
   "require": {
-    "narno/phpoole-theme-hyde": "dev-master",
+    "narno/phpoole-theme-hyde": "^1.5",
     "symfony/yaml": "^2.8"
   },
   "require-dev": {
     "narno/phpoole-library": "^1.5"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.1.x-dev"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
