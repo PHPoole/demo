@@ -21,7 +21,7 @@ $prod = (isset($getopt['e']) && $getopt['e'] == 'prod') ? true : false;
 $options = (!$prod) ? array_replace_recursive($options, $options_dev) : $options;
 
 $phpoole = new PHPoole($options);
-$phpoole->build();
+$phpoole->build(true);
 
 if (!$prod) {
     echo "Start server http://localhost:8000\n";
