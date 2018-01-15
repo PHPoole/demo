@@ -1,13 +1,13 @@
 {
-  "name": "narno/phpoole-demo",
+  "name": "phpoole/demo",
   "description": "A PHPoole demo",
   "license": "MIT",
   "type": "project",
   "require": {
-    "narno/phpoole-theme-hyde": "^1.5",
+    "phpoole/theme-hyde": "^1.8",
     "symfony/yaml": "^2.8"
   },
   "require-dev": {
-    "narno/phpoole-library": "^1.5"
+    "narno/phpoole-library": "^1.10"
   }
 }
