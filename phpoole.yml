@@ -1,7 +1,7 @@
 site:
   title: PHPoole
-  baseline: This is a demo!
-  baseurl: https://phpoole.org/PHPoole-demo/
+  baseline: This is a PHPoole demo!
+  baseurl: https://phpoole.org/demo/
   description: A demo blog.
   menu:
     main:
@@ -11,12 +11,12 @@ site:
       download:
         id: download
         name: Download
-        url: https://github.com/PHPoole/PHPoole-theme-hyde#installation
+        url: https://github.com/PHPoole/theme-hyde#installation
         weight: 50
       github:
         id: github
         name: GitHub project
-        url: http://github.com/PHPoole/PHPoole-theme-hyde
+        url: http://github.com/PHPoole/theme-hyde
         weight: 60
   paginate:
     disabled: false
