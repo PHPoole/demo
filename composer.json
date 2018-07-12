@@ -4,9 +4,7 @@
   "license": "MIT",
   "type": "project",
   "scripts": {
-    "fake": [
-      "faker -c=100"
-    ]
+    "fake": "vendor/bin/faker -c=100"
   },
   "require": {
     "phpoole/theme-hyde": "^1.9",
