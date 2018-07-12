@@ -5,7 +5,7 @@
   "type": "project",
   "scripts": {
     "fake": [
-      "@php bin/faker -c=100"
+      "@php vendor/bin/faker -c=100"
     ]
   },
   "require": {
