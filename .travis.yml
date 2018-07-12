@@ -12,6 +12,7 @@ cache:
 before_script:
   - phpenv config-rm xdebug.ini
   - composer install --no-interaction
+  - composer run-script fake
 script:
   - php build.php -e=prod
 after_success:
