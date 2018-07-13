@@ -11,7 +11,7 @@
     "symfony/yaml": "^3.3"
   },
   "require-dev": {
-    "narno/phpoole-library": "^1.10",
+    "phpoole/library": "^1.11",
     "phpoole/faker": "^1.2"
   },
   "repositories": [
