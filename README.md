@@ -5,19 +5,28 @@ This [PHPoole](http://phpoole.org) demo is a simple blog, based on the [Hyde](ht
 ## Installation
 
 ```
-$ composer create-project narno/phpoole-demo
+$ composer create-project phpoole/demo
 ```
 
 ## Usage
 
-With [PHPoole CLI](http://phpoole.org):
+### Create fake content
+
+```shell
+$ cd demo
+$ composer run-script fake
 ```
-$ cd phpoole-demo
+
+### Generate and serve
+
+With [PHPoole CLI](http://phpoole.org):
+```shell
+$ cd demo
 $ phpoole build -s
 ```
 
 **Or** with the included PHP script:
-```
-$ cd phpoole-demo
+```shell
+$ cd demo
 $ php build.php
 ```
