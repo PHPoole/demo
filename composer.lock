@@ -635,24 +635,24 @@
         },
         {
             "name": "phpoole/faker",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/faker",
-                "reference": "cb1c9416519941c747ce68c97b930ccfdb672be7"
+                "reference": "24cb6b6605a52c62eddfeac576fdb2a4799ef8e0"
             },
             "require": {
                 "fzaninotto/faker": "^1.8"
             },
             "bin": [
-                "bin/faker.php"
+                "bin/faker"
             ],
             "type": "library",
             "license": [
                 "MIT"
             ],
             "description": "PHPoole faker",
-            "time": "2018-07-12T21:48:32+00:00"
+            "time": "2018-07-12T22:00:46+00:00"
         },
         {
             "name": "symfony/filesystem",
