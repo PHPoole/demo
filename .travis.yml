@@ -18,5 +18,10 @@ before_script:
   - composer run-script fake
 script:
   - php phpoole.phar build
-after_success:
-  - bash deploy.sh
+deploy:
+  provider: script
+  script: bash deploy.sh
+  skip_cleanup: true
+  overwrite: true
+  on:
+    branch: master
