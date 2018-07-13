@@ -17,6 +17,6 @@ install:
 before_script:
   - composer run-script fake
 script:
-  - php build.php -e=prod
+  - php phpoole.phar build
 after_success:
   - bash deploy.sh
