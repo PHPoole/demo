@@ -15,7 +15,7 @@ site:
         weight: 50
       github:
         id: github
-        name: GitHub project
+        name: GitHub
         url: http://github.com/PHPoole/
         weight: 60
   paginate:
