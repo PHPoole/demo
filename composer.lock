@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc3694f33e6f836c69c6b6dc2eb0cce6",
+    "content-hash": "0154015610c74673c294ac3f2e9b3078",
     "packages": [
         {
             "name": "phpoole/theme-hyde",
@@ -635,11 +635,11 @@
         },
         {
             "name": "phpoole/faker",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/faker",
-                "reference": "24cb6b6605a52c62eddfeac576fdb2a4799ef8e0"
+                "reference": "bd25586d739d115f25d17633916fb8ae0771b745"
             },
             "require": {
                 "fzaninotto/faker": "^1.8"
@@ -652,7 +652,7 @@
                 "MIT"
             ],
             "description": "PHPoole faker",
-            "time": "2018-07-12T22:00:46+00:00"
+            "time": "2018-07-13T13:25:09+00:00"
         },
         {
             "name": "symfony/filesystem",
