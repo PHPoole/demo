@@ -9,11 +9,19 @@ cache:
   directories:
     - vendor
     - $COMPOSER_CACHE_DIR
-before_script:
+install:
   - phpenv config-rm xdebug.ini
   - composer install --no-interaction
+  - curl -SOL https://phpoole.org/phpoole.phar
+  - php phpoole.phar -v
+before_script:
   - composer run-script fake
 script:
-  - php build.php -e=prod
-after_success:
-  - bash deploy.sh
+  - php phpoole.phar build
+deploy:
+  provider: script
+  script: bash deploy.sh
+  skip_cleanup: true
+  overwrite: true
+  on:
+    branch: master

@@ -19,12 +19,7 @@ $ composer run-script fake
 
 ### 2. Generate and serve
 
-With [PHPoole CLI](http://phpoole.org):
+Install [PHPoole CLI](https://phpoole.org/download/) and run:
 ```shell
 $ phpoole build -s
-```
-
-**Or** with the included PHP script:
-```shell
-$ php build.php
 ```
