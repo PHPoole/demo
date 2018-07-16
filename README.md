@@ -12,14 +12,14 @@ $ composer create-project phpoole/demo
 
 ### 1. Create fake content
 
-```shell
-$ cd demo
-$ composer run-script fake
+```bash
+cd demo
+composer fake
 ```
 
-### 2. Generate and serve
+### 2. Build and serve
 
 Install [PHPoole CLI](https://phpoole.org/download/) and run:
-```shell
-$ phpoole build -s
+```bash
+phpoole build -s
 ```
