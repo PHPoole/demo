@@ -5,7 +5,7 @@ This [PHPoole](https://phpoole.org) demo is a simple blog, based on the [Hyde](h
 ## Installation
 
 ```
-$ composer create-project phpoole/demo
+composer create-project phpoole/demo
 ```
 
 ## Usage
